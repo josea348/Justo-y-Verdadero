@@ -53,6 +53,13 @@ ul {
     padding: 10px 13px;
     border-radius: 5px;
 }
+.items-cerrar-sesion {
+    display: none;
+}
+.cerrar-sesion {
+    display: block;
+    font-size: 24px;
+}
 .user {
     width: 60px;
     height: 60px;
@@ -169,6 +176,9 @@ button:hover {
     }
     .items-cerrar-sesion {
         border-top: #000 1px solid;
+    }
+    .cerrar-sesion {
+        display: none;
     }
     .items i {
         display: inline;
